@@ -16,7 +16,7 @@ export const MobileMenu = ({ isOpen }: Props) => (
     >
       <Button
         as={Link}
-        href="https://app.typebot.io/signin"
+        href="https://app.botninja.xyz/signin"
         colorScheme="blue"
         variant="outline"
         fontWeight={700}
@@ -25,11 +25,11 @@ export const MobileMenu = ({ isOpen }: Props) => (
       </Button>
       <Button
         as={Link}
-        href="https://app.typebot.io/register"
+        href="https://app.botninja.xyz/register"
         colorScheme="orange"
         fontWeight={700}
       >
-        Create a typebot
+        Create a botninja
       </Button>
       <Button
         as={Link}

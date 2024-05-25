@@ -14,7 +14,7 @@ import { Testimonials } from 'components/Homepage/Testimonials'
 const App = () => {
   return (
     <Stack w="full" overflowX="hidden" bgColor="gray.900">
-      <SocialMetaTags currentUrl={`https://www.typebot.io/`} />
+      <SocialMetaTags currentUrl={`https://www.botninja.xyz/`} />
       <Hero />
       <IntroducingChatApps />
       <EasyBuildingExperience />
@@ -23,7 +23,7 @@ const App = () => {
       <RealTimeResults />
       <Features />
       <Testimonials />
-      <EndCta heading="Improve conversion and user engagement with typebots" />
+      <EndCta heading="Boost interaction and keep users engaged with BotNinja for better conversion rates." />
       <Footer />
     </Stack>
   )

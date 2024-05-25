@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <div className="flex flex-col items-center w-full overflow-x-hidden ">
       <Header />
-      <SocialMetaTags currentUrl={`https://www.typebot.io/about`} />
+      <SocialMetaTags currentUrl={`https://www.botninja.xyz/about`} />
       <Stack
         spacing={10}
         mx="auto"
@@ -97,7 +97,7 @@ const AboutPage = () => {
           tutorials.
         </Text>
       </Stack>
-      <EndCta heading="Improve conversion and user engagement with typebots" />
+      <EndCta heading="Boost interaction and keep users engaged with BotNinja for better conversion rates." />
       <Footer />
     </div>
   )

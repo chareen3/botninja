@@ -27,7 +27,7 @@ export const IntroducingChatApps = () => {
   }, [])
 
   const fetchTemplate = async () => {
-    const { data, error } = await sendRequest(`/typebots/lead-gen-lp.json`)
+    const { data, error } = await sendRequest(`/typebots /lead-gen-lp.json`)
     if (error) return
     setTypebot(data as PublicTypebot)
   }
@@ -49,7 +49,7 @@ export const IntroducingChatApps = () => {
             textAlign="center"
             data-aos="fade"
           >
-            Replace your old school forms with chatbots
+            Swap out old forms for simple, human-friendly, and super clear.
           </Heading>
           <Text
             textAlign="center"
@@ -57,9 +57,9 @@ export const IntroducingChatApps = () => {
             color="gray.400"
             data-aos="fade"
           >
-            Typebot is a better way to ask for information. It leads to an
-            increase in customer satisfaction and retention and multiply by 3
-            your conversion rate compared to classical forms.
+            BotNinja is a superior method for gathering information. It boosts
+            customer satisfaction and retention and triples your conversion rate
+            compared to traditional forms.
           </Text>
         </Stack>
 

@@ -25,12 +25,12 @@ const features = [
   {
     Icon: PersonAddIcon,
     title: 'Team collaboration',
-    content: 'Invite your teammates to work on your typebots with you',
+    content: 'Invite your teammates to work on your botninja  with you',
   },
   {
     Icon: ConditionIcon,
-    title: 'Link to sub typebots',
-    content: 'Reuse your typebots in different parent bots.',
+    title: 'Link to sub botninjas ',
+    content: 'Reuse your botninjas  in different parent bots.',
   },
   {
     Icon: CalculatorIcon,
@@ -46,7 +46,7 @@ const features = [
     Icon: FolderIcon,
     title: 'Folder management',
     content:
-      'Organize your typebots in specific folders to keep it clean and work with multiple clients',
+      'Organize your botninjas  in specific folders to keep it clean and work with multiple clients',
   },
 ]
 
@@ -70,7 +70,7 @@ export const Features = () => {
             textAlign="center"
             data-aos="fade"
           >
-            Typebot makes form building easy and comes with powerful features
+            BotNija makes form building easy and comes with powerful features
           </Text>
         </VStack>
         <SimpleGrid columns={[1, 3]} spacing="10" pt="10" data-aos="fade">

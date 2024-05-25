@@ -251,7 +251,7 @@ export const PlanComparisonTables = ({ onChatsTiersClick }: Props) => (
           <Tr>
             <TdWithTooltip
               text="Folders"
-              tooltip="Organize your typebots into folders"
+              tooltip="Organize your typebots  into folders"
             />
             <Td />
             <Td>Unlimited</Td>

@@ -1,5 +1,7 @@
 import {
   Box,
+  Avatar,
+  AvatarGroup,
   Button,
   Flex,
   Heading,
@@ -29,7 +31,7 @@ export const Hero = () => {
               fontSize={['4xl', '4xl', '5xl', '7xl']}
               textAlign="center"
               maxW="1000px"
-              bgGradient="linear(to-r, blue.300, purple.300)"
+              bgGradient="linear(to-r, purple.300, orange.300)"
               bgClip="text"
               data-aos="fade-up"
             >
@@ -46,6 +48,18 @@ export const Hero = () => {
               experiences. Embed them anywhere on your web/mobile apps and start
               collecting results like magic.
             </Text>
+            {/* Here's where you integrate the AvatarGroup component */}
+            <AvatarGroup size="md" max={2}>
+              <Avatar name="Ryan Florence" src="https://bit.ly/ryan-florence" />
+              <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
+              <Avatar name="Kent Dodds" src="https://bit.ly/kent-c-dodds" />
+              <Avatar
+                name="Prosper Otemuyiwa"
+                src="https://bit.ly/prosper-baba"
+              />
+              <Avatar name="Christian Nwamba" src="https://bit.ly/code-beast" />
+            </AvatarGroup>
+            {/* End of AvatarGroup */}
             <Stack
               direction={['column-reverse', 'row']}
               data-aos="fade-up"

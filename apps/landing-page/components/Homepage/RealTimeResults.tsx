@@ -63,17 +63,17 @@ export const RealTimeResults = () => {
             fontSize={{ base: 'lg', xl: 'xl' }}
             data-aos="fade"
           >
-            One of the main advantage of a chat application is that you collect
-            the user&apos;s responses on each question.{' '}
-            <strong>You won&apos;t lose any valuable data.</strong>
+            One great benefit of a chat application is its ability to gather the
+            user&#39;s responses to every question.{' '}
+            <strong>You won&#39;t lose any valuable data.</strong>
           </Text>
           <Flex>
             <Button
               as={Link}
               rightIcon={<ArrowRight />}
-              href={`https://app.typebot.io/register`}
+              href={`https://app.botninja.xyz/register`}
               variant="ghost"
-              colorScheme="blue"
+              colorScheme="purple"
               data-aos="fade"
             >
               Try it now
@@ -117,7 +117,7 @@ export const RealTimeResults = () => {
             display={{ base: 'none', xl: 'flex' }}
           >
             <Text fontFamily="'Indie Flower'" fontSize="2xl">
-              It&apos;s a real Airtable view!
+              It&#39;s a real Airtable view!
             </Text>
             <HandDrawnArrow
               transform="rotate(30deg)"

@@ -36,14 +36,15 @@ export const EasyBuildingExperience = () => {
             fontSize={{ base: 'lg', xl: 'xl' }}
             data-aos="fade"
           >
-            All you have to do is drag and drop blocks to create your app. Even
-            if you have custom needs, you can always add custom code.
+            Creating your app is as simple as dragging and dropping blocks. And
+            if you need something special, you can always add your own code.
           </Text>
           <Flex>
             <Button
               as={Link}
               rightIcon={<ArrowRight />}
-              href={`https://app.typebot.io/register`}
+              href={`https://app.botninja.xyz/register`}
+              colorScheme="purple"
               variant="ghost"
               data-aos="fade"
             >

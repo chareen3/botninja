@@ -2,9 +2,9 @@ import { getBlogPosts } from '@/app/db/blog'
 import { Posts } from './Posts'
 
 export const metadata = {
-  title: 'Typebot Blog',
+  title: 'BotNinja Blog',
   description:
-    'The official Typebot blog where we share our thoughts and tips on everything related to chatbots, conversational marketing, customer support and more.',
+    'Discover BotNinja Tips, Your Source for Chatbots, Marketing Chats, Support, and More!',
 }
 
 export default function Home() {

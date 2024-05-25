@@ -45,7 +45,7 @@ export const Header = () => {
           <HStack as={Link} href="/" rel="home" ml="2">
             <Logo boxSize="35px" />
             <Heading as="p" fontSize="lg">
-              Typebot
+              BotNinja
             </Heading>
           </HStack>
         </Flex>
@@ -89,8 +89,8 @@ export const Header = () => {
           </Button>
           <Button
             as={Link}
-            href="https://app.typebot.io/signin"
-            colorScheme="blue"
+            href="https://app.botninja.xyz/signin"
+            colorScheme="yellow"
             variant="outline"
             fontWeight={700}
           >
@@ -98,11 +98,11 @@ export const Header = () => {
           </Button>
           <Button
             as={Link}
-            href="https://app.typebot.io/register"
-            colorScheme="orange"
+            href="https://app.botninja.xyz/register"
+            colorScheme="purple"
             fontWeight={700}
           >
-            Create a typebot
+            Create a botninja
           </Button>
         </HStack>
       </HStack>

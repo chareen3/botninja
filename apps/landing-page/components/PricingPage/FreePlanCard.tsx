@@ -11,7 +11,7 @@ export const FreePlanCard = () => (
       price: 'Free',
       name: 'Personal',
       features: [
-        'Unlimited typebots',
+        'Unlimited typebots ',
         <>
           <Text>
             <chakra.span fontWeight="bold">{chatsLimits.FREE}</chakra.span>{' '}

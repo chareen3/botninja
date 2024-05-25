@@ -8,17 +8,17 @@ const fonts = {
 }
 
 const colors = {
-  blue: {
-    50: '#e0edff',
-    100: '#b0caff',
-    200: '#7ea6ff',
-    300: '#4b83ff',
-    400: '#1a5fff',
-    500: '#0042da',
-    600: '#0036b4',
-    700: '#002782',
-    800: '#001751',
-    900: '#1a202c',
+  purple: {
+    50: '#f2e6ff',
+    100: '#d8b3ff',
+    200: '#bf80ff',
+    300: '#a64dff',
+    400: '#8c1aff',
+    500: '#7200e6',
+    600: '#5c00b4',
+    700: '#460082',
+    800: '#300051',
+    900: '#1a002c',
   },
   orange: {
     50: '#fff1da',
@@ -49,27 +49,27 @@ const colors = {
 const components = {
   Button: {
     defaultProps: {
-      colorScheme: 'blue',
+      colorScheme: 'puple',
     },
     variants: {
       solid: () => ({
-        bg: 'blue.400',
+        bg: 'purple.400',
         color: 'white',
         shadow: 'inset 0 1px 0 0 rgb(255 255 255/.2)',
         _hover: {
-          bg: 'blue.300',
+          bg: 'gray.600',
         },
       }),
     },
   },
   NumberInput: {
     defaultProps: {
-      focusBorderColor: 'blue.200',
+      focusBorderColor: 'purple.200',
     },
   },
   Input: {
     defaultProps: {
-      focusBorderColor: 'blue.200',
+      focusBorderColor: 'purple.200',
     },
   },
   Popover: {

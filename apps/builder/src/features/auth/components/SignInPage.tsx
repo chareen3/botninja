@@ -53,9 +53,11 @@ export const SignInPage = ({ type }: Props) => {
           <T
             keyName="auth.register.aggreeToTerms"
             params={{
-              terms: <TextLink href={'https://typebot.io/terms-of-service'} />,
+              terms: (
+                <TextLink href={'https://botninja.xyz/terms-of-service'} />
+              ),
               privacy: (
-                <TextLink href={'https://typebot.io/privacy-policies'} />
+                <TextLink href={'https://botninja.xyz/privacy-policies'} />
               ),
             }}
           />

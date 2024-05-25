@@ -112,8 +112,8 @@ export const Integrations = () => (
           fontSize={['lg', 'xl']}
           data-aos="fade-up"
         >
-          Typebot offers several native integrations blocks as well as
-          instructions on how to embed typebot on particular platforms
+          BotNinja provides various built-in integrations and step-by-step
+          guides on how to add BotNinja to specific platforms.
         </Text>
       </Stack>
     </Stack>

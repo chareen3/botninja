@@ -13,7 +13,7 @@ export const webRuntime = new Hono()
 webRuntime.use('*', cors())
 
 webRuntime.post(
-  '/api/v1/typebots/:publicId/startChat',
+  '/api/v1/typebots /:publicId/startChat',
   tbValidator(
     'json',
     t.Object({
@@ -42,7 +42,7 @@ webRuntime.post(
 )
 
 webRuntime.post(
-  '/api/v1/typebots/:id/preview/startChat',
+  '/api/v1/typebots /:id/preview/startChat',
   tbValidator(
     'json',
     t.Object({

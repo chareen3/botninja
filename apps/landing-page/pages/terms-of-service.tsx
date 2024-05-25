@@ -110,7 +110,7 @@ const PrivacyPolicies = () => {
           bound by the current version of these Terms and Conditions of Use.
         </p>
 
-        <Heading id="scam-typebots">8. Prohibition of Scam Typebots</Heading>
+        <Heading id="scam-typebots ">8. Prohibition of Scam typebots </Heading>
         <p>
           You agree not to create or use typebots on Typebot&apos;s Website for
           the purpose of engaging in fraudulent activities, scamming

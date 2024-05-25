@@ -7,7 +7,7 @@ import { Providers } from './providers'
 import 'assets/style.css'
 
 export const metadata: Metadata = {
-  title: 'Typebot - Open-source conversational apps builder',
+  title: 'BotNinja - Powerfull ChatBot builder',
   description:
     'Powerful blocks to create unique chat experiences. Embed them anywhere on your apps and start collecting results like magic.',
 }

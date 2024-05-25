@@ -14,15 +14,15 @@ import {
 import { Logo } from 'assets/icons/Logo'
 import { TextLink } from './TextLink'
 
-const discordServerUrl = 'https://typebot.io/discord'
-const typebotLinkedInUrl = 'https://www.linkedin.com/company/typebot'
-const typebotTwitterUrl = 'https://twitter.com/Typebot_io'
-const baptisteTwitterUrl = 'https://twitter.com/baptisteArno'
-const statusPageUrl = 'https://status.typebot.io'
-export const contactUrl = 'https://bot.typebot.io/landing-page-bubble-en'
-export const roadmapLink = 'https://app.typebot.io/feedback'
-export const documentationLink = 'https://docs.typebot.io'
-export const githubRepoLink = 'https://github.com/baptisteArno/typebot.io'
+const discordServerUrl = 'https://botninja.xyz/discord'
+const typebotLinkedInUrl = 'https://www.linkedin.com/company/botninjas'
+const typebotTwitterUrl = 'https://twitter.com/botninjas'
+const baptisteTwitterUrl = 'https://twitter.com/botninjas'
+const statusPageUrl = 'https://status.botninja.xyz'
+export const contactUrl = 'https://bot.botninja.xyz/landing-page-bubble-en'
+export const roadmapLink = 'https://app.botninja.xyz/feedback'
+export const documentationLink = 'https://docs.botninja.xyz'
+export const githubRepoLink = 'https://github.com/baptisteArno/botninja.xyz'
 
 export const Footer = () => {
   return (
@@ -33,7 +33,7 @@ export const Footer = () => {
             <HStack>
               <Logo boxSize="30px" />
               <Heading as="p" fontSize="lg">
-                Typebot
+                BotNinja
               </Heading>
             </HStack>
             <Text>
@@ -73,7 +73,7 @@ export const Footer = () => {
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
             <TextLink href="/about">About</TextLink>
-            <TextLink href="mailto:support@typebot.io">Contact</TextLink>
+            <TextLink href="mailto:support@botninja.xyz">Contact</TextLink>
             <TextLink href={'/terms-of-service'}>Terms of Service</TextLink>
             <TextLink href={'/privacy-policies'}>Privacy Policy</TextLink>
           </Stack>

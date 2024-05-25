@@ -1,5 +1,5 @@
 {
-  "version": "2.25.0",
+  "version": "2.25.1",
   "name": "typebot-os",
   "private": true,
   "license": "AGPL-3.0-or-later",
@@ -41,5 +41,8 @@
       "path": "node_modules/cz-emoji"
     }
   },
-  "packageManager": "pnpm@8.15.4"
+  "packageManager": "pnpm@8.15.4",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1"
+  }
 }

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 
 export const SocialMetaTags = ({
-  title = 'Typebot - Open-source conversational apps builder',
+  title = 'BotNinja - Powerfull apps builder',
   description = 'Powerful blocks to create unique chat experiences. Embed them anywhere on your apps and start collecting results like magic.',
   currentUrl,
   imagePreviewUrl = 'https://home.typebot.io/images/preview.png',
